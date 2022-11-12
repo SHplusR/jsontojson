@@ -4,6 +4,9 @@ from konlpy.tag import Okt
 import pickle
 import numpy as np
 
+#pip install tensorflow
+#pip install keras
+#pip install konlpy --> 환경시스템 변수 JAVA_HOME 경로 확인
 file_path = "./maioutput.json"
 with open(file_path, 'r', encoding='UTF-8') as file:
 
